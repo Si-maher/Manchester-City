@@ -19,8 +19,8 @@ class Header extends Component {
                     borderBottom: "2px solid #00285e"
                 }}
             >
-                <ToolBar styles={{ display: "flex" }}>
-                    <div stlyes={{ flexGrow: 1 }}>
+                <ToolBar style={{ display: "flex" }}>
+                    <div style={{ flexGrow: 1 }}>
                         <div className="header_logo"><CityLogo
                             link={true}
                             linkTo="/"
