@@ -6,6 +6,7 @@ import Button from "@material-ui/core/Button"
 import { Link } from "react-router-dom"
 import { borderBottom } from "@material-ui/system";
 // *********
+import { CityLogo } from "../Components/ui/icons"
 class Header extends Component {
     render() {
         return (
@@ -20,7 +21,12 @@ class Header extends Component {
             >
                 <ToolBar styles={{ display: "flex" }}>
                     <div stlyes={{ flexGrow: 1 }}>
-                        <div className="header_logo">Logo </div>
+                        <div className="header_logo"><CityLogo
+                            link={true}
+                            linkTo="/"
+                            width="70px"
+                            height="70px"
+                        /> </div>
 
                     </div>
                     <Link to="/the_team">
